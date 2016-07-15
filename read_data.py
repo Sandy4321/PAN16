@@ -34,7 +34,6 @@ def convert_to_csv(all_problem_path, csv_path, dict_info):
                 file_path = subdir + os.path.sep + file_
                 file_id = file_.split(".")[0]
                 file_text = open_text(file_path)
-                # file_text = unicode(file_text).encode('utf-8', errors='ignore')
                 each_file.append(file_id)
                 each_file.append(file_text)
                 all_data.append(each_file)
