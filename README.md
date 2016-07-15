@@ -8,3 +8,7 @@ To run the software, type this following command in terminal:
 ```python
   python main.py -c $inputDataset -o $outputDir
 ```
+The system used the character n-gram features together with K-means clustering. The number of clusters were optimized using Silhoutte Coefficient. <br \>
+Initially, we also tried to use word embeddings as the features. However, since the results didn't show any significant improvement, we decided to use character n-grams in our final software.<br \>
+
+We have created word2vec model for Dutch (see under "model" directory) and used Google word2vec binary model (you have to download it by your own and put it under "model" directory)
