@@ -1,6 +1,9 @@
 import re
 from bs4 import BeautifulSoup
 
+# the code taken from https://www.kaggle.com/c/word2vec-nlp-tutorial
+# https://github.com/wendykan/DeepLearningMovies/blob/master/KaggleWord2VecUtility.py
+
 
 class KaggleWord2VecUtility(object):
     """KaggleWord2VecUtility is a utility class for processing raw HTML text into segment for further learning"""
