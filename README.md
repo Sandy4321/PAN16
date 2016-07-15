@@ -6,5 +6,5 @@ The notebook paper will be published soon at http://pan.webis.de/publications.ht
 Before running the code, please make sure to install all dependencies software (sklearn, gensim)
 To run the software, type this following command in terminal:
 ```python
-  python main.py -c \$inputDataset -o \$outputDir
+  python main.py -c $inputDataset -o $outputDir
 ```
