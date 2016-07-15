@@ -1,7 +1,8 @@
 import logging
 import numpy as np
 from word2vec_utility import KaggleWord2VecUtility
-
+# the code taken from https://www.kaggle.com/c/word2vec-nlp-tutorial
+# https://github.com/wendykan/DeepLearningMovies/blob/master/Word2Vec_AverageVectors.py
 
 def makeFeatureVec(words, model, num_features):
     featureVec = np.zeros((num_features,), dtype="float32")
